@@ -16,23 +16,6 @@ class Profile extends React.Component {
     };
     
   }
-// componentDidMount
-componentDidMount() {
-  setInterval(() => {
-    console.log('Component Did mount');
-  }, 1000);
-}
-// componentWillUnmount
-componentWillUnmount() {
-  console.log("ComponentW will unmount")
-}
-
-// componentDidUpdate
-componentDidUpdate(prevprops, prevstate) {
-  console.log("Component did update")
-  console.log(prevprops, prevstate)
-}
-
 
 
   render() {
